@@ -3,8 +3,10 @@
 
 mod cl;
 mod data_structures;
+mod ng_game;
 mod sh;
 mod standard_collections;
+mod strings;
 
 use std::mem; //memory
               //global variable
@@ -209,5 +211,7 @@ fn main() {
     // standard_collections::vectors();
     // standard_collections::hashmaps();
     // standard_collections::hashsets();
-    standard_collections::iterators();
+    // standard_collections::iterators();
+    // strings::strings_and_characters();
+    ng_game::number_guessing_game();
 }
