@@ -3,6 +3,7 @@
 
 mod cl;
 mod data_structures;
+mod functions;
 mod ng_game;
 mod sh;
 mod standard_collections;
@@ -213,5 +214,8 @@ fn main() {
     // standard_collections::hashsets();
     // standard_collections::iterators();
     // strings::strings_and_characters();
-    ng_game::number_guessing_game();
+    // ng_game::number_guessing_game();
+    // functions::function_demo();
+    // functions::closures();
+    functions::high_order_functions();
 }

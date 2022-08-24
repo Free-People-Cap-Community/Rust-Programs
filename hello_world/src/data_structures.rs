@@ -12,8 +12,11 @@ struct Line {
 }
 
 impl Line {
+    //method
+
     fn len(&self) -> f64 {
-        let dx = self.start.x - self.end.x; // Ctrl+D
+        //self basically the reference of a class in which we are working
+        let dx = self.start.x - self.end.x; //basically it refers to the struct Point
         let dy = self.start.y - self.end.y;
         return (dx * dx + dy * dy).sqrt();
     }
