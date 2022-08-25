@@ -4,7 +4,7 @@ use std::collections::HashMap;
 use std::collections::HashSet;
 
 pub fn vectors() {
-    let mut a = Vec::new();
+    let mut a = Vec::new(); //here :: is a factory func
     a.push(1);
     a.push(2);
     a.push(3);

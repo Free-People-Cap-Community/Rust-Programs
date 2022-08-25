@@ -1,5 +1,7 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
+#![allow(unused_imports)]
+#![allow(unused_mut)]
 
 mod cl;
 mod data_structures;
@@ -8,6 +10,7 @@ mod ng_game;
 mod sh;
 mod standard_collections;
 mod strings;
+mod traits;
 
 use std::mem; //memory
               //global variable
@@ -217,5 +220,14 @@ fn main() {
     // ng_game::number_guessing_game();
     // functions::function_demo();
     // functions::closures();
-    functions::high_order_functions();
+    // functions::high_order_functions();
+    // traits::trait_func();
+    // traits::trait_parameters();
+    // traits::into_trait();
+    // traits::drop_trait();
+    // traits::operator_overloading();
+    // traits::static_dispatch();
+    // traits::dynamic_dispatch();
+    // traits::another_dynamic_dispatch();
+    traits::vectors_with_different_objects();
 }
