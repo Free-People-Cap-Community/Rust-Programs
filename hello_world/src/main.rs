@@ -1,11 +1,12 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
-#![allow(unused_imports)]
-#![allow(unused_mut)]
+// #![allow(unused_imports)]
+// #![allow(unused_mut)]
 
 mod cl;
 mod data_structures;
 mod functions;
+mod life_and_mem;
 mod ng_game;
 mod sh;
 mod standard_collections;
@@ -191,6 +192,7 @@ fn match_statement() {
     };
     println!("{}", s)
 }
+
 fn main() {
     // data_types();
     // operators();
@@ -229,5 +231,11 @@ fn main() {
     // traits::static_dispatch();
     // traits::dynamic_dispatch();
     // traits::another_dynamic_dispatch();
-    traits::vectors_with_different_objects();
+    // traits::vectors_with_different_objects();
+    // life_and_mem::ownership();
+    // life_and_mem::borrowing();
+    // life_and_mem::lifetime();
+    // life_and_mem::lifetime_with_struct();
+    // life_and_mem::reference_counted_var();
+    life_and_mem::atomic_reference_counted_var();
 }
