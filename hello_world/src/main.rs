@@ -5,6 +5,7 @@
 
 mod circular_reference;
 mod cl;
+mod concurrency;
 mod data_structures;
 mod functions;
 mod life_and_mem;
@@ -239,5 +240,6 @@ fn main() {
     // life_and_mem::lifetime_with_struct();
     // life_and_mem::reference_counted_var();
     // life_and_mem::atomic_reference_counted_var();
-    circular_reference::c_r();
+    // circular_reference::c_r();
+    concurrency::spawning_and_joining_thread();
 }
