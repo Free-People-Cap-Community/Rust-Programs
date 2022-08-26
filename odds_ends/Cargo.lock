@@ -29,8 +29,13 @@ checksum = "8371e4e5341c3a96db127eb2465ac681ced4c433e01dd0e938adbef26ba93ba5"
 name = "odds_ends"
 version = "0.1.0"
 dependencies = [
+ "phrases",
  "rand",
 ]
+
+[[package]]
+name = "phrases"
+version = "0.1.0"
 
 [[package]]
 name = "ppv-lite86"
